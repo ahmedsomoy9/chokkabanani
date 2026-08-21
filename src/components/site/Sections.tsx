@@ -125,8 +125,15 @@ const featured = [
     label: "Rice Creation",
     title: "Garlic Butter Shrimp",
     price: "745",
+    position: "object-center",
   },
-  { img: wedges.url, label: "Bites", title: "Wedges", price: "285" },
+  {
+    img: wedges.url,
+    label: "Bites",
+    title: "Wedges",
+    price: "285",
+    position: "object-bottom",
+  },
 ];
 
 export function Featured() {
@@ -150,7 +157,7 @@ export function Featured() {
                   loading="lazy"
                   width={768}
                   height={640}
-                  className="aspect-4/3 w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className={`aspect-4/3 w-full object-cover ${d.position} transition-transform duration-700 group-hover:scale-105`}
                 />
               </div>
               <figcaption className="flex items-end justify-between gap-4 px-5 py-5">
@@ -285,7 +292,7 @@ export function Events() {
             loading="lazy"
             width={768}
             height={640}
-            className="aspect-4/3 w-full object-cover"
+            className="aspect-4/3 w-full object-cover object-bottom"
           />
         </div>
         <div>
