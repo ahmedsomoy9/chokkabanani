@@ -183,8 +183,8 @@ export const contact = {
   hours: "12:00 PM – 11:00 PM",
   phoneDisplay: "+880 1866-033673",
   phoneHref: "tel:+8801866033673",
-  whatsapp: "https://wa.me/8801866033673",
+  whatsapp: "https://wa.me/8801866033673?text=Hello%20Chokka%20Banani!",
   instagram: "https://www.instagram.com/chokka_banani",
-  facebook: "https://www.facebook.com/share/19JRa6dXLx/",
+  facebook: "https://www.facebook.com/chokkadhaka",
   maps: "https://www.google.com/maps/dir/?api=1&destination=House+93+Road+6+Block+C+Banani+Dhaka",
 };
