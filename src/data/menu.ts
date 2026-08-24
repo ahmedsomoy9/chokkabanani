@@ -179,7 +179,7 @@ export const menu: MenuCategory[] = [
 
 export const contact = {
   name: "Chokka Banani",
-  address: "House 93, Road 6, Block C, Banani, Dhaka",
+  address: "House 93, Road 06, Block C, Banani, Dhaka",
   hours: "12:00 PM – 11:00 PM",
   phoneDisplay: "+880 1866-033673",
   phoneHref: "tel:+8801866033673",

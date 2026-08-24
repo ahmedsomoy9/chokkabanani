@@ -55,7 +55,7 @@ export function Hero() {
             </div>
             <div className="min-w-0">
               <dt className="eyebrow">Find Us</dt>
-              <dd className="mt-1 text-secondary-foreground">House 93, Road 6, Block C</dd>
+              <dd className="mt-1 text-secondary-foreground">House 93, Road 06, Block C</dd>
             </div>
           </dl>
         </div>
@@ -426,7 +426,7 @@ export function LocationContact() {
             className="group relative grid overflow-hidden rounded-3xl border border-border bg-secondary-foreground/90 p-8 text-primary-foreground shadow-soft"
           >
             <span className="relative z-10 self-end">
-              <span className="block font-display text-2xl">House 93, Road 6</span>
+              <span className="block font-display text-2xl">House 93, Road 06</span>
               <span className="mt-1 block text-sm text-primary-foreground/80">
                 Block C, Banani, Dhaka
               </span>
