@@ -40,7 +40,9 @@ export function Hero() {
               Explore Menu
             </a>
             <a
-              href="#contact"
+              href={contact.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-primary/25 bg-card/80 px-6 py-3 text-sm font-semibold text-secondary-foreground backdrop-blur transition-all hover:-translate-y-0.5 hover:border-primary/50"
             >
               Contact Us
@@ -306,7 +308,9 @@ export function Events() {
             Tell us what you have in mind and we'll walk you through the details.
           </p>
           <a
-            href="#contact"
+            href={contact.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-soft transition-all hover:-translate-y-0.5 hover:bg-wood-deep"
           >
             <MessageCircle className="size-4" />
