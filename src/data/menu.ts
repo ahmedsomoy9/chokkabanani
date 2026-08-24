@@ -184,7 +184,7 @@ export const contact = {
   phoneDisplay: "+880 1866-033673",
   phoneHref: "tel:+8801866033673",
   whatsapp: "https://wa.me/8801866033673",
-  instagram: "https://www.instagram.com/chokka_banani?igsi=Mm50YnoxcGZ6cXU2",
+  instagram: "https://www.instagram.com/chokka_banani/",
   facebook: "https://www.facebook.com/share/19JRa6dXLx/",
   maps: "https://www.google.com/maps/dir/?api=1&destination=House+93+Road+6+Block+C+Banani+Dhaka",
 };
