@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.jpeg.asset.json";
+import logo from "@/assets/logo.jpeg";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -36,7 +36,7 @@ export function Nav() {
       >
         <a href="#home" className="flex min-w-0 items-center gap-3">
           <span className="grid size-11 shrink-0 place-items-center overflow-hidden rounded-full bg-secondary-foreground">
-            <img src={logo.url} alt="Chokka Banani logo" width={44} height={44} className="size-11 object-cover" />
+            <img src={logo} alt="Chokka Banani logo" width={44} height={44} className="size-11 object-cover" />
           </span>
           <span className="min-w-0">
             <span className="block truncate font-display text-lg leading-tight font-semibold">Chokka</span>

@@ -10,11 +10,11 @@ import {
   Bike,
 } from "lucide-react";
 import { menu, contact } from "@/data/menu";
-import logo from "@/assets/logo.jpeg.asset.json";
-import shrimpRice from "@/assets/shrimp-rice.jpeg.asset.json";
-import wedges from "@/assets/wedges.jpeg.asset.json";
-import menuFood from "@/assets/menu-food.jpeg.asset.json";
-import menuDrinks from "@/assets/menu-drinks.jpeg.asset.json";
+import logo from "@/assets/logo.jpeg";
+import shrimpRice from "@/assets/shrimp-rice.jpeg";
+import wedges from "@/assets/wedges.jpeg";
+import menuFood from "@/assets/menu-food.jpeg";
+import menuDrinks from "@/assets/menu-drinks.jpeg";
 
 const taka = "৳";
 
@@ -63,7 +63,7 @@ export function Hero() {
         <div className="rise relative" style={{ animationDelay: "120ms" }}>
           <div className="overflow-hidden rounded-3xl shadow-lift">
             <img
-              src={shrimpRice.url}
+              src={shrimpRice}
               alt="Garlic butter shrimp served with herbed rice on a terracotta plate"
               width={768}
               height={880}
@@ -72,7 +72,7 @@ export function Hero() {
           </div>
           <div className="absolute -bottom-6 -left-4 hidden items-center gap-3 rounded-2xl border border-border bg-card px-4 py-3 shadow-soft sm:flex">
             <span className="grid size-10 shrink-0 place-items-center overflow-hidden rounded-full bg-secondary-foreground">
-              <img src={logo.url} alt="" width={40} height={40} className="size-10 object-cover" />
+              <img src={logo} alt="" width={40} height={40} className="size-10 object-cover" />
             </span>
             <span className="text-xs leading-tight text-muted-foreground">
               Pasta · Pizza · Rice
@@ -123,14 +123,14 @@ export function About() {
 
 const featured = [
   {
-    img: shrimpRice.url,
+    img: shrimpRice,
     label: "Rice Creation",
     title: "Garlic Butter Shrimp",
     price: "745",
     position: "object-center",
   },
   {
-    img: wedges.url,
+    img: wedges,
     label: "Bites",
     title: "Wedges",
     price: "285",
@@ -262,8 +262,8 @@ export function MenuSection() {
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
         {[
-          { src: menuFood.url, alt: "Chokka Banani printed food menu" },
-          { src: menuDrinks.url, alt: "Chokka Banani printed tea and drinks menu" },
+          { src: menuFood, alt: "Chokka Banani printed food menu" },
+          { src: menuDrinks, alt: "Chokka Banani printed tea and drinks menu" },
         ].map((m) => (
           <div key={m.src} className="overflow-hidden rounded-2xl border border-border bg-card shadow-soft">
             <img
@@ -289,7 +289,7 @@ export function Events() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-20 sm:px-6 md:py-28 lg:grid-cols-2 lg:gap-16">
         <div className="overflow-hidden rounded-3xl shadow-lift">
           <img
-            src={wedges.url}
+            src={wedges}
             alt="Crispy potato wedges with chili dip on a serving plate"
             loading="lazy"
             width={768}
@@ -451,7 +451,7 @@ export function Footer() {
           <div>
             <div className="flex min-w-0 items-center gap-3">
               <span className="grid size-11 shrink-0 place-items-center overflow-hidden rounded-full bg-secondary-foreground">
-                <img src={logo.url} alt="Chokka Banani logo" loading="lazy" width={44} height={44} className="size-11 object-cover" />
+                <img src={logo} alt="Chokka Banani logo" loading="lazy" width={44} height={44} className="size-11 object-cover" />
               </span>
               <span className="font-display text-lg">Chokka Banani</span>
             </div>
